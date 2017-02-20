@@ -1,0 +1,48 @@
+body {
+				color: #ffffff;				
+                background: #413f3b url("images/bg.jpg");
+				font-family: Georgia, "Times New Roman", Times, serif;
+				font-size: 90%;
+				margin: 0px;
+                text-align: center;
+}
+a {
+				color: #b5c1ad;
+				text-decoration: none;
+}
+.header {
+				background-image: url("images/bg-header.jpg");
+				padding: 0px 0px 0px 0px;
+				height: 100px;
+				position: fixed;
+				top: 0px;
+				width: 100%;
+				z-index: 50;}
+@font-face {
+				font-family: 'QuicksandBook';
+				src: url('fonts/Quicksand_Book-webfont.eot');
+				src: url('fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+					url('fonts/Quicksand_Book-webfont.woff') format('woff'),
+					url('fonts/Quicksand_Book-webfont.ttf') format('truetype'),
+					url('fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg'),
+                    url('DeftoneStylus-Regular.ttf') format('truetype');
+				font-weight: normal;
+				font-style: normal;
+}
+.nav {
+				float: right;
+				font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+				text-align: right;
+                margin-top:45px;
+                margin-right:80px;
+}
+.no1   {
+                padding-top: 100px;
+}
+.logo {
+                float:left;
+                margin-left: 100px;
+                width: 80px;
+                height: 100px;
+                font-size: 60px;    
+}
